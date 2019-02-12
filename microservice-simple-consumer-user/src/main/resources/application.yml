@@ -1,0 +1,12 @@
+server:
+  port: 8010
+
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+
+user:
+  userServiceUrl: http://localhost:8000/

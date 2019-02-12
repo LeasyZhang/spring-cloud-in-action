@@ -1,4 +1,4 @@
 rootProject.name = 'spring-cloud-in-action'
 
-include 'microservice-simple-provider-user'
-
+include "microservice-simple-provider-user"
+include "microservice-simple-consumer-user"
