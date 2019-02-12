@@ -2,3 +2,6 @@ rootProject.name = 'spring-cloud-in-action'
 
 include "microservice-simple-provider-user"
 include "microservice-simple-consumer-user"
+include "microservice-discovery-eureka"
+include "microservice-provider-user"
+include "microservice-consumer-movie"
