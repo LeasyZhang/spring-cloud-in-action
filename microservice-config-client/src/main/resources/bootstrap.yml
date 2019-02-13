@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservice-foo
+
+  cloud:
+    config:
+      uri: http://localhost:8050/
+      profile: dev
+      label: master
