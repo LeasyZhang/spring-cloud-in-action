@@ -1,0 +1,21 @@
+server:
+  port: 8010
+
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+
+user:
+  userServiceUrl: http://microservice-provide-user/
+
+spring:
+  application:
+    name: microservice-consumer-movie
+
+microservice-provide-user:
+  ribbon:
+    listOfServers: localhost:8000,localhost:8001
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
