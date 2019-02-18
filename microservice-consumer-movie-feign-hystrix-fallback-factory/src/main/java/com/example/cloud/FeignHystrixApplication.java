@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-public class ConsumerApplication {
+public class FeignHystrixApplication {
 
     @Bean
     public RestTemplate restTemplate(){
@@ -18,6 +18,6 @@ public class ConsumerApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerApplication.class, args);
+        SpringApplication.run(FeignHystrixApplication.class, args);
     }
 }

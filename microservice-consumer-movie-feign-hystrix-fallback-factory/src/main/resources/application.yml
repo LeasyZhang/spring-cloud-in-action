@@ -14,7 +14,7 @@ user:
 
 spring:
   application:
-    name: microservice-consumer-movie
+    name: microservice-consumer-movie-feign-hystrix
 
 eureka:
   client:

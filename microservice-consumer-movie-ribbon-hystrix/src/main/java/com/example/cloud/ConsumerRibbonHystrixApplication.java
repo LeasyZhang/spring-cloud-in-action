@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @EnableHystrix
 @EnableCircuitBreaker
-public class ConsumerApplication {
+public class ConsumerRibbonHystrixApplication {
 
     @Bean
     @LoadBalanced
@@ -22,6 +22,6 @@ public class ConsumerApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerApplication.class, args);
+        SpringApplication.run(ConsumerRibbonHystrixApplication.class, args);
     }
 }

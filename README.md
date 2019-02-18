@@ -18,6 +18,6 @@ Docker 1.13.0 version.
 - [install ELK](https://blog.csdn.net/callmepls1/article/details/79441505)
 
 ### build & run
-- use ```gradle build``` in project root directory;
+- use ```gradle build``` in project root directory to build;
 - each project can ben run independently, use ```gradle :moduleName:bootRun``` to run project,
-for example run ```gradle :microservice-config-server:bootRun``` to boot microservice-config-server module.
+for example use ```gradle :microservice-config-server:bootRun``` to boot microservice-config-server module.
